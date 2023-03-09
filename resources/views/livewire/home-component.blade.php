@@ -1,6 +1,6 @@
 <title>Home</title>
 
-<diV>
+<diV class="bg-custom">
     <section>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100 hm-image-custom" src="{{ asset('assets/images/3.jpg') }}"
+                    <img class="d-block w-100 hm-image-custom" src="{{ asset('assets/images/4.jpg') }}"
                         alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 data-aos="fade-down">BOXFOX Does Bridal</h2>
@@ -104,9 +104,9 @@
             </div>
         </div>
     </section>
-    <section class="mt-5">
+    <section class="mt-5 ">
         <div class="p-5">
-            <div class="row" data-aos="fade-right">
+            <div class="row" >
                 <div class="col-md-6">
                     @if ($middle1->isEmpty())
                     <img src="{{ asset('assets/images/slider3.jpg') }}" alt="" srcset="">
@@ -116,34 +116,34 @@
                 </div>
                 <div class="col-md-6" data-aos="fade-left">
                     <div class="d-flex flex-column justify-content-center align-items-center custom-style-card">
-                        <h1 class="mb-5">For The Snow Lover</h1>
-                        <p class="text-center"> Curated dot your friend who can't
+                        <h1 class="mb-5" data-aos="fade-up">For The Snow Lover</h1>
+                        <p class="text-center" data-aos="fade-up"> Curated dot your friend who can't
                             wait to slopes this ski( and snowbord!) season. Whether they're ready for balck diamond or
                             just there for the apres, we've got the perfect gifts just for them.</p>
                         <a href="/collections/gift-box-builder-gifts/box"
-                            class="btn btn-outline-danger btn-margin-top btn-rounded">Make your
+                            class="btn btn-outline-danger btn-margin-top btn-rounded"  data-aos="fade-up">Make your
                             box!</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="mt-5">
+    <section class="mt-5 ">
         <div class="p-5">
             <div class="row">
-                <div class="col-md-6" data-aos="fade-right">
+                <div class="col-md-6">
                     <div class="d-flex flex-column justify-content-center align-items-center custom-style-card">
-                        <h1 class="mb-5">For The Snow Lover</h1>
-                        <p class="text-center">Curated dot your friend who can't wait to slopes this ski( and snowbord!)
+                        <h1 class="mb-5" data-aos="fade-up">For The Snow Lover</h1>
+                        <p class="text-center" data-aos="fade-up">Curated dot your friend who can't wait to slopes this ski( and snowbord!)
                             season. Whether
                             they're ready for balck diamond or just there for the apres, we've got the perfect gifts
                             just for them.</p>
                         <a href="/collections/gift-box-builder-gifts/box"
-                            class="btn btn-outline-danger btn-margin-top btn-rounded">Make your
+                            class="btn btn-outline-danger btn-margin-top btn-rounded"  data-aos="fade-up">Make your
                             box!</a>
                     </div>
                 </div>
-                <div class="col-md-6" data-aos="fade-left">
+                <div class="col-md-6" >
                     @if ($middle1->isEmpty())
                     <img src="{{ asset('assets/images/slider2.jpg') }}" alt="" srcset="">
                     @else

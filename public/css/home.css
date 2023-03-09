@@ -24,7 +24,7 @@
     font-size: 1.5rem;
 }
 
-.btn-margin-top{
+.btn-margin-top {
     margin-top: 18px;
 }
 
@@ -34,11 +34,11 @@
     height: 350px;
 }
 
-.hm-tittle-paddin{
+.hm-tittle-paddin {
     padding: 40px;
 }
 
-.hm-tittle-paddin-top{
+.hm-tittle-paddin-top {
     padding-top: 25px;
 }
 
@@ -51,4 +51,18 @@
 
 }
 
+.bg-custom1 {
+    background: rgb(98, 98, 98);
+    background: radial-gradient(circle, rgba(98, 98, 98, 0.2862394957983193) 0%, rgba(116, 116, 116, 0.19940476190476186) 16%, rgba(255, 255, 255, 1) 100%);
 
+}
+
+.bg-custom2{
+    background: rgb(246,245,131);
+    background: radial-gradient(circle, rgba(246,245,131,0.5131302521008403) 0%, rgba(246,245,131,0.4431022408963585) 16%, rgba(255,255,255,1) 100%);
+}
+
+.bg-custom {
+    background: rgb(246, 131, 245);
+    background: radial-gradient(circle, rgba(246, 131, 245, 0.34226190476190477) 0%, rgba(235, 131, 246, 0.2806372549019608) 16%, rgba(255, 255, 255, 1) 100%);
+}
