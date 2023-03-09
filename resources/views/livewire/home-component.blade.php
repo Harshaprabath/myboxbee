@@ -1,6 +1,6 @@
 <title>Home</title>
 
-<diV class="c_body">
+<diV>
     <section>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -10,24 +10,45 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="{{ asset('assets/images/spa-banner2.jpg') }}" alt="First slide">
+                    <img class="d-block w-100 hm-image-custom" src="{{ asset('assets/images/1.jpg') }}"
+                        alt="First slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
+                        <h2 data-aos="fade-down">BOXFOX Does Bridal</h2>
+                        <h4 data-aos="fade-down">From engagement gifts o bridesmaid asks, and shower gifts to newlywed
+                            care packages - we've
+                            gott it all!</h4>
+                        <br>
+                        <a href="/collections/gift-box-builder-gifts" class="btn btn-light" data-aos="fade-up">
+                            <h3>Build a Gift Box</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{ asset('assets/images/spa-banner2.jpg') }}" alt="Second slide">
+                    <img class="d-block w-100 hm-image-custom" src="{{ asset('assets/images/2.jpg') }}"
+                        alt="Second slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
+                        <h2 data-aos="fade-down">BOXFOX Does Bridal</h2>
+                        <h4 data-aos="fade-down">From engagement gifts o bridesmaid asks, and shower gifts to newlywed
+                            care packages - we've
+                            gott it all!</h4>
+                        <br>
+                        <a href="/collections/gift-box-builder-gifts" class="btn btn-light" data-aos="fade-up">
+                            <h3>Build a Gift Box</h3>
+                        </a>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="{{ asset('assets/images/spa-banner2.jpg') }}" s alt="Third slide">
+                    <img class="d-block w-100 hm-image-custom" src="{{ asset('assets/images/3.jpg') }}"
+                        alt="Third slide">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>...</h5>
-                        <p>...</p>
+                        <h2 data-aos="fade-down">BOXFOX Does Bridal</h2>
+                        <h4 data-aos="fade-down">From engagement gifts o bridesmaid asks, and shower gifts to newlywed
+                            care packages - we've
+                            gott it all!</h4>
+                        <br>
+                        <a href="/collections/gift-box-builder-gifts" class="btn btn-light" data-aos="fade-up">
+                            <h3>Build a Gift Box</h3>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -42,11 +63,12 @@
         </div>
     </section>
 
-    <section class="section1 " data-aos="fade-up">
+
+    <section class="hm-tittle-paddin" data-aos="fade-up">
         <div class="container">
             <div class="row justify-center d-flex">
                 <div>
-                    <h4 class="heading-style">YOU GO-TO FOR GIFTING</h4>
+                    <h2><b>YOU GO-TO FOR GIFTING</b></h2>
                 </div>
             </div>
             <div class="text-center font-weight-500 color-black">
@@ -56,27 +78,27 @@
         </div>
     </section>
 
-    <section class="section1" data-aos="fade-up">
+    <section data-aos="fade-up" class="bg-white">
         <div class="container">
             <div class="row mb-5">
                 <div class="col-12">
-                    <p class="fs-lg">HOW IT WORKS</p>
+                    <h2 class="text-center hm-tittle-paddin-top">HOW IT WORKS</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 p-4">
-                    <h2 class="">1.</h2><br>
-                    <h2 class="mb-2">NEED A GIFT?</h2>
+                    <h3 class="">1.</h3><br>
+                    <h3 class="mb-2">NEED A GIFT?</h3>
                     <p class="fs-md font-20">Any reason. any season.We're here to help keep things thoughtful.</p>
                 </div>
                 <div class="col-md-4 p-4">
-                    <h2 class="">2.</h2><br>
-                    <h2 class="mb-2">KEEP IT PERSONAL</h2>
+                    <h3 class="">2.</h3><br>
+                    <h3 class="mb-2">KEEP IT PERSONAL</h3>
                     <p class="fs-md font-20">Any reason. any season.We're here to help keep things thoughtful.</p>
                 </div>
                 <div class="col-md-4 p-4">
-                    <h2 class="">3.</h2><br>
-                    <h2 class="mb-2">WE HANDLE THE REST</h2>
+                    <h3 class="">3.</h3><br>
+                    <h3 class="mb-2">WE HANDLE THE REST</h3>
                     <p class="fs-md font-20">Any reason. any season.We're here to help keep things thoughtful.</p>
                 </div>
             </div>
