@@ -1,0 +1,16 @@
+.ab-image-custom {
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+
+}
+
+.ab-title-custoom-padding {
+    padding: 25px;
+}
+
+.ab-body-custoom-padding {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 40px;
+}

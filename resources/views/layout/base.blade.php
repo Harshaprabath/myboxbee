@@ -34,6 +34,7 @@ $logo = slider::where('type', '=', 'logo')->get();
     <link rel="stylesheet" type="text/css" href="{{ asset('css/easyzoom.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/aboutus.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/coprategifting.css') }}">
     
 
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
