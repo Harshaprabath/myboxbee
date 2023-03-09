@@ -32,6 +32,9 @@ $logo = slider::where('type', '=', 'logo')->get();
     <link rel="stylesheet" type="text/css" href="{{ asset('js/jquery.fontselect.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/font-awesome.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/easyzoom.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/home.css') }}">
+    
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <link rel="stylesheet" type="text/css" href="{{ asset('assets/css/color-01.css') }}">
@@ -287,7 +290,7 @@ $logo = slider::where('type', '=', 'logo')->get();
         <script src="{{ asset('assets/vendor/zoom-magnify/jquery.zoom.min.js') }}"></script>
         <script src="{{ asset('assets/js/scroll-me.min.js') }}"></script>
         <script src="{{ asset('assets/js/custom-script.js') }}"></script>
-
+            
 
     </body>
 

@@ -53,6 +53,17 @@ $cart_items = cart::where('user_id', $user_id)->get();
     top: -60%;
 }
 
+.logo-small {
+    width: 146px;
+    height: 53px;
+    padding-bottom: 60px;
+    position: relative;
+    left: 2%;
+    top: -60%;
+    display: none;
+}
+
+
 
 .c_heder {
     position: fixed;
@@ -105,10 +116,12 @@ $cart_items = cart::where('user_id', $user_id)->get();
         margin-bottom: 16px;
         height: 33px;
     }
-    .log-hide{
-    display: none;
-}
-    
+
+    .logo-hide {
+
+        display: none;
+    }
+
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1022px) {
@@ -245,15 +258,16 @@ $cart_items = cart::where('user_id', $user_id)->get();
                             </svg>
                         </a>
 
+                        <div class="logo-hide">
 
-                        <a class="navbar-brand px-6 m-0 logo log-hide" href="/">
-                            @if ($logo->isEmpty())
-                            <p>Logo</p>
-                            @else
-                            <img src="{{ asset('upload/frontend/logo.png') }}" alt="" width="60%">
-                            @endif
-                        </a>
-
+                            <a class="navbar-brand px-6 m-0 logo logo-hide" href="/">
+                                @if ($logo->isEmpty())
+                                <p>Logo</p>
+                                @else
+                                <img src="{{ asset('upload/frontend/logo.png') }}" alt="" width="60%">
+                                @endif
+                            </a>
+                        </div>
 
                         <a class="navbar-toggler border-0 p-3" href="/cart">
                             <i class="fas fa-shopping-cart shopping-cart-mb" width="20" height="20"></i>
