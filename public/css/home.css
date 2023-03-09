@@ -42,6 +42,10 @@
     padding-top: 25px;
 }
 
+.hm-btn-paddin-top {
+    padding-bottom: 25px;
+}
+
 @media only screen and (min-width: 861px) {
     .custom-style-card {
         top: 28%;

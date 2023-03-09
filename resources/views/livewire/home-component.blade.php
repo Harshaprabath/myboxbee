@@ -131,7 +131,7 @@
     <section class="mt-5 ">
         <div class="p-5">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6  hm-btn-paddin-top">
                     <div class="d-flex flex-column justify-content-center align-items-center custom-style-card">
                         <h1 class="mb-5" data-aos="fade-up">For The Snow Lover</h1>
                         <p class="text-center" data-aos="fade-up">Curated dot your friend who can't wait to slopes this ski( and snowbord!)
