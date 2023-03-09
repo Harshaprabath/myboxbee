@@ -2,13 +2,13 @@
 
 <link rel="stylesheet" type="text/css" href="{{ asset('css/aboutus.css') }}">
 
-<div class="container padding-body-custom " data-aos="fade-up">
+<div class="container" data-aos="fade-up">
     <div class="row">
         <div class="col-md-12 text-center">
             <div data-aos="fade-up">
                 <img src="{{asset('img/about2.jpg')}}" class="img-fluid img-custom" alt="Responsive image">
             </div>
-            <div class="splash-page-section editorial-content-section">
+            <div class="splash-page-section editorial-content-section ab-body-custoom-padding ">
                 <div class="section-block background-nude">
                     <div class="wrapper">
                         <div class="editorial-content text-only">
