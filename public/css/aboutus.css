@@ -1,0 +1,14 @@
+.padding-body-custom {
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-bottom: 40px;
+}
+
+.padding-title-custom {
+    padding: 10px;
+}
+
+.img-custom {
+    height: 400px;
+    width: 100%;
+}
